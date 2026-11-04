@@ -1,13 +1,13 @@
-// Zed settings from frameshell: Frameshell theme (colors from facet theme), JetBrains Mono, file tree on the left,
-// no AI features. This file is a link into the zed module (~/.local/share/frameshell/modules/zed),
-// so changes made here or in Zed's settings UI end up in that repo.
+// Zed settings for the tui style: the facet tui theme (colors from facet theme), JetBrains Mono,
+// the file tree on the left, no AI features. Written by facet theme from
+// templates/tui/zed/.config/zed/settings.json; change that file, changes made in Zed get replaced.
 {
   // Switches off the agent panel, inline assistant and edit predictions
   "cli_default_open_behavior": "existing_window",
   "disable_ai": true,
   "agent": { "enabled": false, "button": false },
 
-  "theme": { "mode": "dark", "dark": "Frameshell", "light": "Frameshell" },
+  "theme": { "mode": "dark", "dark": "facet tui", "light": "facet tui" },
   "ui_font_family": "JetBrains Mono",
   "ui_font_size": 15,
   "buffer_font_family": "JetBrains Mono",

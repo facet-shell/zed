@@ -1,3 +1,4 @@
 # Written by `facet theme` from templates/ for the active style and theme; edit the
 # template instead. Kept out of git so switching themes is never a change in the repo.
 /zed/.config/zed/themes/
+/zed/.config/zed/settings.json
